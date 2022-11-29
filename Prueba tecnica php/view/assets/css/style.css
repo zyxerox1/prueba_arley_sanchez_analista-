@@ -1,0 +1,53 @@
+body{
+  background-color: #202329;
+}
+
+@font-face {
+    font-family: "PaytoneOne";
+    src: url("../../../view/assets/font/PaytoneOne-Regular.ttf");
+}
+
+/*///////////////////////////card////////////////////////////*/
+.card-title{
+  font-family:"PaytoneOne";
+}
+
+.card-text{
+  font-family:"PaytoneOne";
+}
+
+.card{
+  width: 600px;
+  height: 300px;
+  display: flex;
+  overflow: hidden;
+  background: #3c3e44;
+  border-radius: 0.5rem;
+  margin: 0.75rem;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+}
+
+/************************************img*********************/
+img{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  opacity: 1;
+  transition: opacity 0.5s ease 0s;
+  object-position: center center;
+  object-fit: cover;
+}
+
+/**************title*******/
+.title{
+  color: white;
+  font-family:"PaytoneOne";
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; left: 0;
+  background: #fff url(https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif) no-repeat center center;
+}

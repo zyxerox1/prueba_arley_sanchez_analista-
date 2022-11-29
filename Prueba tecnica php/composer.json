@@ -1,0 +1,11 @@
+{
+    "name": "arley/prueba_inpanu",
+    "description": "prueba_tecnica_ipanu",
+    "authors": [
+        {
+            "name": "arley sanchez",
+            "email": "j.arley111@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
